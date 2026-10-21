@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empleos para desarrolladores | DevJobs</title>
+    <meta name="description" content="Explora oportunidades de empleo para desarrolladores y filtra por tecnología, ubicación y experiencia." />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/empleos.css" />
+    <script type="module" src="./js/empleos.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="./index.html" class="brand" aria-label="DevJobs, ir al inicio">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M7 8l-4 4l4 4" />
+                <path d="M17 8l4 4l-4 4" />
+                <path d="M14 4l-4 16" />
+            </svg>
+            DevJobs
+        </a>
+
+        <nav aria-label="Principal">
+            <a href="./index.html">Inicio</a>
+            <a href="./empleos.html" aria-current="page">Empleos</a>
+        </nav>
+
+        <div class="auth-buttons">
+            <a href="#jobs-title" class="btn">Publicar un empleo</a>
+            <a href="#jobs-title" class="btn">Iniciar sesión</a>
+        </div>
+    </header>
+
+    <main class="jobs-page">
+        <section class="jobs-search" aria-labelledby="jobs-title">
+            <div class="jobs-intro">
+                <p class="eyebrow">Tu próximo paso empieza aquí</p>
+                <h1 id="jobs-title">Encuentra tu próximo trabajo</h1>
+                <p class="jobs-description">Explora miles de oportunidades en el sector tecnológico y encuentra la que va contigo.</p>
+            </div>
+
+            <form class="jobs-form" role="search" action="./empleos.html" method="get">
+                <div class="jobs-search-bar">
+                    <label class="visually-hidden" for="job-query">Buscar trabajos, empresas o habilidades</label>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7" />
+                        <path d="m20 20-4-4" />
+                    </svg>
+                    <input id="job-query" name="q" type="search" maxlength="120" placeholder="Puesto, empresa o habilidad" />
+                    <button class="jobs-submit" type="submit">Buscar empleos</button>
+                </div>
+
+                <fieldset class="search-filters">
+                    <legend class="visually-hidden">Filtrar empleos</legend>
+                    <div class="filter-control">
+                        <label for="technology">Tecnología</label>
+                        <select name="technology" id="technology-filter">
+                            <option value="">Todas las tecnologías</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-control">
+                        <label for="location">Ubicación</label>
+                        <select name="location" id="location-filter">
+                            <option value="">Cualquier ubicación</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-control">
+                        <label for="contract-filter">Tipo de contrato</label>
+                        <select name="contract" id="contract-filter">
+                            <option value="">Cualquier tipo</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-control">
+                        <label for="experience-filter">Experiencia</label>
+                        <select name="experience" id="experience-filter">
+                            <option value="">Cualquier nivel</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="jobs-results" aria-labelledby="results-heading">
+            <div class="results-heading">
+                <div>
+                    <p class="eyebrow">Oportunidades para ti</p>
+                    <h2 id="results-heading">Vacantes disponibles</h2>
+                </div>
+                <p class="results-count" id="results-count" aria-live="polite"></p>
+            </div>
+            <div class="job-listings" id="job-listings" aria-live="polite" aria-busy="true">
+                <p class="loading-message">Cargando empleos…</p>
+            </div>
+            <p class="empty-state" id="empty-state" hidden>No encontramos empleos con esos criterios. Prueba otros filtros.</p>
+            <p class="error-state" id="error-state" role="alert" hidden>No pudimos cargar las vacantes. Inténtalo de nuevo más tarde.</p>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p><small>&copy; 2025 DevJobs. Todos los derechos reservados.</small></p>
+    </footer>
+</body>
+
+</html>

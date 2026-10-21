@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevJobs - Inicio</title>
+    <meta name="description" content="Encuentra las mejores ofertas de trabajo para desarrolladores en DevJobs." />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="/00-html-css/index.html" class="brand">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M7 8l-4 4l4 4" />
+                <path d="M17 8l4 4l-4 4" />
+                <path d="M14 4l-4 16" />
+            </svg>
+            DevJobs
+        </a>
+
+        <nav aria-label="Principal">
+            <a href="#" aria-current="page">Inicio</a>
+            <a href="/00-html-css/empleos.html">Empleos</a>
+        </nav>
+
+        <div class="auth-buttons">
+            <a href="#" class="btn">Publicar un empleo</a>
+            <a href="#" class="btn">Iniciar sesión</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img class="hero-bg" src="./img/background.jpeg" alt="" />
+
+            <div class="hero-content">
+                <h1>Encuentra el trabajo de tus sueños</h1>
+
+                <p>Únete a la comunidad más grande de desarrolladores y encuentra tu próxima oportunidad.</p>
+
+                <form role="search">
+                    <div class="search">
+                        <svg class="search-svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                            <path d="M21 21l-6 -6" />
+                        </svg>
+
+                        <input class="bars" required type="text" name="q"
+                            aria-label="Buscar empleos"
+                            placeholder="Buscar empleos por título, habilidades o empresa" />
+
+                        <button class="button" type="submit">Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="features-header">
+                <h2>¿Por qué DevJobs?</h2>
+                <p>DevJobs es la principal plataforma de búsqueda de empleo para desarrolladores. Conectamos a los
+                    mejores talentos con las empresas más innovadoras.</p>
+            </div>
+
+            <div class="features-grid">
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true">
+                        <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -9" />
+                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+                        <path d="M12 12l0 .01" />
+                        <path d="M3 13a20 20 0 0 0 18 0" />
+                    </svg>
+                    <h3>Encuentra el trabajo de tus sueños</h3>
+                    <p>Busca miles de empleos de las mejores empresas de todo el mundo.</p>
+                </article>
+
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true">
+                        <path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                        <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                    </svg>
+                    <h3>Conecta con las mejores empresas</h3>
+                    <p>Conecta con empresas que están contratando por tus habilidades.</p>
+                </article>
+
+                <article>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true">
+                        <path d="M3 21l18 0" />
+                        <path d="M5 21v-14l8 -4v18" />
+                        <path d="M19 21v-10l-6 -4" />
+                        <path d="M9 9l0 .01" />
+                        <path d="M9 12l0 .01" />
+                        <path d="M9 15l0 .01" />
+                        <path d="M9 18l0 .01" />
+                    </svg>
+                    <h3>Obtén el salario que mereces</h3>
+                    <p>Obtén el salario que mereces con empresas de todo el mundo.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p><small>&copy; 2025 DevJobs. Todos los derechos reservados.</small></p>
+    </footer>
+
+</body>
+
+</html>

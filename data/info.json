@@ -1,0 +1,200 @@
+[
+  {
+    "id": "plataforma-santiago",
+    "title": "Ingeniera de plataforma cloud",
+    "company": "Cóndor Digital",
+    "location": "Santiago",
+    "technology": "AWS",
+    "technologies": ["AWS", "Kubernetes", "Terraform"],
+    "contract": "Tiempo completo",
+    "experience": "Senior",
+    "description": "Diseña una plataforma interna que permita a los equipos publicar servicios con seguridad y autonomía.",
+    "responsibilities": [
+      "Mantener infraestructura como código para servicios en producción.",
+      "Mejorar observabilidad, disponibilidad y tiempos de despliegue.",
+      "Acompañar a los equipos en buenas prácticas de nube."
+    ],
+    "requirements": [
+      "Experiencia administrando servicios en AWS.",
+      "Uso práctico de Kubernetes y Terraform.",
+      "Interés por automatización y confiabilidad de sistemas."
+    ],
+    "aboutCompany": "Cóndor Digital desarrolla productos financieros para pequeñas empresas de América Latina."
+  },
+  {
+    "id": "diseno-producto-bogota",
+    "title": "Diseñador de producto digital",
+    "company": "Marea Estudio",
+    "location": "Bogotá",
+    "technology": "Figma",
+    "technologies": ["Figma", "UX Research", "Design Systems"],
+    "contract": "Contrato por proyecto",
+    "experience": "Intermedio",
+    "description": "Convierte necesidades de clientes en experiencias sencillas para una nueva plataforma de educación.",
+    "responsibilities": [
+      "Prototipar flujos para web y móvil.",
+      "Planificar entrevistas y pruebas de usabilidad.",
+      "Colaborar con desarrollo para mantener un sistema visual coherente."
+    ],
+    "requirements": [
+      "Portafolio con proyectos digitales publicados.",
+      "Dominio de Figma y prototipado interactivo.",
+      "Capacidad para explicar decisiones de diseño."
+    ],
+    "aboutCompany": "Marea Estudio es un equipo pequeño que crea herramientas digitales para aprendizaje y cultura."
+  },
+  {
+    "id": "analitica-remoto",
+    "title": "Científica de datos",
+    "company": "Lumen Energía",
+    "location": "Remoto",
+    "technology": "Python",
+    "technologies": ["Python", "SQL", "Machine Learning"],
+    "contract": "Tiempo completo",
+    "experience": "Senior",
+    "description": "Desarrolla modelos que ayudan a anticipar el consumo energético y a reducir desperdicios.",
+    "responsibilities": [
+      "Explorar datos de sensores y preparar conjuntos de entrenamiento.",
+      "Evaluar modelos predictivos junto a especialistas del sector.",
+      "Comunicar resultados y limitaciones a equipos no técnicos."
+    ],
+    "requirements": [
+      "Experiencia con Python y bibliotecas de análisis de datos.",
+      "Conocimientos de SQL y validación de modelos.",
+      "Práctica con experimentos reproducibles."
+    ],
+    "aboutCompany": "Lumen Energía crea software para que comercios y comunidades gestionen mejor su consumo eléctrico."
+  },
+  {
+    "id": "frontend-junior-madrid",
+    "title": "Desarrolladora frontend junior",
+    "company": "Casa Naranja",
+    "location": "Madrid",
+    "technology": "Vue.js",
+    "technologies": ["Vue.js", "JavaScript", "CSS"],
+    "contract": "Tiempo completo",
+    "experience": "Junior",
+    "description": "Ayuda a mejorar la tienda online y aprende junto a un equipo que comparte revisiones de código.",
+    "responsibilities": [
+      "Implementar componentes de interfaz a partir de diseños.",
+      "Corregir detalles de accesibilidad y adaptación móvil.",
+      "Participar en revisiones y pequeñas mejoras semanales."
+    ],
+    "requirements": [
+      "Conocimientos básicos de JavaScript, HTML y CSS.",
+      "Interés por Vue.js y desarrollo accesible.",
+      "Ganas de aprender y colaborar en equipo."
+    ],
+    "aboutCompany": "Casa Naranja es una marca independiente de decoración que vende en varios países europeos."
+  },
+  {
+    "id": "seguridad-cdmx",
+    "title": "Analista de seguridad de aplicaciones",
+    "company": "Bastión Labs",
+    "location": "Ciudad de México",
+    "technology": "Ciberseguridad",
+    "technologies": ["OWASP", "Linux", "Ciberseguridad"],
+    "contract": "Contrato por proyecto",
+    "experience": "Intermedio",
+    "description": "Trabaja con equipos de producto para detectar riesgos antes de que lleguen a producción.",
+    "responsibilities": [
+      "Revisar hallazgos de análisis estático y dinámico.",
+      "Documentar vulnerabilidades y proponer correcciones claras.",
+      "Apoyar ejercicios de modelado de amenazas."
+    ],
+    "requirements": [
+      "Conocimiento de riesgos comunes en aplicaciones web.",
+      "Experiencia básica con Linux y herramientas de seguridad.",
+      "Comunicación clara para trabajar con desarrollo."
+    ],
+    "aboutCompany": "Bastión Labs ayuda a empresas de salud y comercio a proteger sus servicios digitales."
+  },
+  {
+    "id": "backend-buenos-aires",
+    "title": "Desarrollador backend Go",
+    "company": "Río Abierto",
+    "location": "Buenos Aires",
+    "technology": "Go",
+    "technologies": ["Go", "PostgreSQL", "gRPC"],
+    "contract": "Tiempo completo",
+    "experience": "Intermedio",
+    "description": "Construye APIs para una plataforma logística que conecta comercios con operadores locales.",
+    "responsibilities": [
+      "Diseñar endpoints y servicios de baja latencia.",
+      "Mantener integraciones con bases de datos y servicios externos.",
+      "Participar en decisiones técnicas y despliegues graduales."
+    ],
+    "requirements": [
+      "Experiencia desarrollando servicios backend.",
+      "Conocimientos de Go o interés demostrado en aprenderlo.",
+      "Familiaridad con PostgreSQL y APIs."
+    ],
+    "aboutCompany": "Río Abierto crea tecnología para que las entregas de comercios locales sean más previsibles."
+  },
+  {
+    "id": "producto-barcelona",
+    "title": "Product manager de herramientas internas",
+    "company": "Brújula Viajes",
+    "location": "Barcelona",
+    "technology": "Gestión de producto",
+    "technologies": ["Gestión de producto", "Agile", "Analítica"],
+    "contract": "Tiempo completo",
+    "experience": "Lead",
+    "description": "Define la evolución de las herramientas que usan los equipos de atención y operaciones.",
+    "responsibilities": [
+      "Priorizar problemas a partir de datos y conversaciones con usuarios.",
+      "Coordinar objetivos y entregas con diseño e ingeniería.",
+      "Medir el impacto de los cambios y ajustar el rumbo."
+    ],
+    "requirements": [
+      "Experiencia liderando productos digitales B2B.",
+      "Habilidad para convertir necesidades en prioridades claras.",
+      "Comodidad trabajando con métricas y equipos diversos."
+    ],
+    "aboutCompany": "Brújula Viajes desarrolla herramientas para que agencias y viajeros organicen experiencias a medida."
+  },
+  {
+    "id": "mobile-freelance",
+    "title": "Desarrolladora móvil Flutter",
+    "company": "Páramo Salud",
+    "location": "Remoto",
+    "technology": "Flutter",
+    "technologies": ["Flutter", "Dart", "Firebase"],
+    "contract": "Freelance",
+    "experience": "Senior",
+    "description": "Colabora en la nueva versión de una aplicación de seguimiento de hábitos saludables.",
+    "responsibilities": [
+      "Implementar pantallas y flujos en iOS y Android.",
+      "Integrar autenticación y notificaciones.",
+      "Asegurar una experiencia estable en dispositivos variados."
+    ],
+    "requirements": [
+      "Experiencia publicando aplicaciones con Flutter.",
+      "Conocimiento de Dart y consumo de APIs.",
+      "Disponibilidad para un proyecto de tres meses."
+    ],
+    "aboutCompany": "Páramo Salud crea servicios digitales de bienestar con acompañamiento de profesionales."
+  },
+  {
+    "id": "qa-practicas-santiago",
+    "title": "Practicante de automatización QA",
+    "company": "Taller Uno",
+    "location": "Santiago",
+    "technology": "Playwright",
+    "technologies": ["Playwright", "TypeScript", "Testing"],
+    "contract": "Práctica",
+    "experience": "Práctica",
+    "description": "Aprende a crear pruebas confiables para los flujos principales de una aplicación de reservas.",
+    "responsibilities": [
+      "Mantener casos de prueba para recorridos de usuario.",
+      "Registrar errores con pasos claros para reproducirlos.",
+      "Explorar herramientas de automatización junto al equipo QA."
+    ],
+    "requirements": [
+      "Estudios en informática o área relacionada.",
+      "Conocimientos iniciales de TypeScript o JavaScript.",
+      "Curiosidad y atención al detalle."
+    ],
+    "aboutCompany": "Taller Uno desarrolla soluciones de reservas para espacios de trabajo y actividades comunitarias."
+  }
+]
